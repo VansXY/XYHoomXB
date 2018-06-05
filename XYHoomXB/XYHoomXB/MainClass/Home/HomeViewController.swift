@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: XYViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +17,9 @@ class HomeViewController: UIViewController {
     }
     
     func setUI() {
-        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.orange
         
+        print(self.view.x)
     }
 
 }

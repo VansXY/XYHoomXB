@@ -1,0 +1,6 @@
+module Pods_XYHoomXB [system] {
+  umbrella header "Pods-XYHoomXB-umbrella.h"
+
+  export *
+  module * { export * }
+}

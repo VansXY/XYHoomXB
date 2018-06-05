@@ -1,0 +1,10 @@
+
+target "XYHoomXB" do
+
+
+pod 'Alamofire'
+
+
+
+
+end

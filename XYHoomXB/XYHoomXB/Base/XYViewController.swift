@@ -1,5 +1,5 @@
 //
-//  MyViewController.swift
+//  XYViewController.swift
 //  XYHoomXB
 //
 //  Created by HXB-xiaoYang on 2018/6/5.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class MyViewController: XYViewController {
+class XYViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setUI()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    func setUI() {
-        self.view.backgroundColor = UIColor.white
-        
+
+        // Do any additional setup after loading the view.
     }
     
 
