@@ -14,6 +14,8 @@
 		E1DCF8B520C668BE00B9F6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8B320C668BE00B9F6AB /* LaunchScreen.storyboard */; };
 		E1DCF8C020C668BE00B9F6AB /* XYHoomXBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8BF20C668BE00B9F6AB /* XYHoomXBTests.swift */; };
 		E1DCF8CB20C668BE00B9F6AB /* XYHoomXBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8CA20C668BE00B9F6AB /* XYHoomXBUITests.swift */; };
+		E1DCF8E020C66B7400B9F6AB /* FinancingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8DF20C66B7400B9F6AB /* FinancingViewController.swift */; };
+		E1DCF8E220C66B7F00B9F6AB /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8E120C66B7F00B9F6AB /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E1DCF8C620C668BE00B9F6AB /* XYHoomXBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYHoomXBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DCF8CA20C668BE00B9F6AB /* XYHoomXBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHoomXBUITests.swift; sourceTree = "<group>"; };
 		E1DCF8CC20C668BE00B9F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DCF8DF20C66B7400B9F6AB /* FinancingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancingViewController.swift; sourceTree = "<group>"; };
+		E1DCF8E120C66B7F00B9F6AB /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 		E1DCF8DC20C66AFB00B9F6AB /* Financing */ = {
 			isa = PBXGroup;
 			children = (
+				E1DCF8DF20C66B7400B9F6AB /* FinancingViewController.swift */,
 			);
 			path = Financing;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 		E1DCF8DE20C66AFB00B9F6AB /* My */ = {
 			isa = PBXGroup;
 			children = (
+				E1DCF8E120C66B7F00B9F6AB /* MyViewController.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -313,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1DCF8AD20C668BC00B9F6AB /* HomeViewController.swift in Sources */,
+				E1DCF8E020C66B7400B9F6AB /* FinancingViewController.swift in Sources */,
+				E1DCF8E220C66B7F00B9F6AB /* MyViewController.swift in Sources */,
 				E1DCF8AB20C668BC00B9F6AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
