@@ -17,6 +17,7 @@
 		E1C12CE220C7D149004DBD20 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CE020C7D149004DBD20 /* HomeViewController.swift */; };
 		E1C12CE820C7D152004DBD20 /* FinancingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CE720C7D152004DBD20 /* FinancingViewController.swift */; };
 		E1C12CEE20C7D15A004DBD20 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CEB20C7D15A004DBD20 /* MyViewController.swift */; };
+		E1C12CF020C7E127004DBD20 /* XYSpacingMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */; };
 		E1DCF8AB20C668BC00B9F6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8AA20C668BC00B9F6AB /* AppDelegate.swift */; };
 		E1DCF8B020C668BC00B9F6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8AE20C668BC00B9F6AB /* Main.storyboard */; };
 		E1DCF8B220C668BE00B9F6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8B120C668BE00B9F6AB /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		E1C12CE020C7D149004DBD20 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E1C12CE720C7D152004DBD20 /* FinancingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancingViewController.swift; sourceTree = "<group>"; };
 		E1C12CEB20C7D15A004DBD20 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYSpacingMacro.swift; sourceTree = "<group>"; };
 		E1DCF8A720C668BC00B9F6AB /* XYHoomXB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYHoomXB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DCF8AA20C668BC00B9F6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1DCF8AF20C668BC00B9F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 		E1DCF8DA20C66A9F00B9F6AB /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				E1DCF8EE20C67F1000B9F6AB /* UIView+Extension.swift in Sources */,
 				E1C12CD820C7D012004DBD20 /* NSString+Extension.swift in Sources */,
 				E1C12CD420C7CFD5004DBD20 /* UIButton+Extension.swift in Sources */,
+				E1C12CF020C7E127004DBD20 /* XYSpacingMacro.swift in Sources */,
 				E1C12CDA20C7D02D004DBD20 /* NSArray+Extension.swift in Sources */,
 				E1C12CD220C7CFB0004DBD20 /* UIImageView+Extension.swift in Sources */,
 				E1C12CD620C7CFE8004DBD20 /* UITextField+Extension.swift in Sources */,
