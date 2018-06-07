@@ -8,15 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		D7CF066F99186C602A736CD4 /* libPods-XYHoomXB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7562DAB730AB632E291467E /* libPods-XYHoomXB.a */; };
+		E12DD21420C90B4B00EDE22F /* XYHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12DD21320C90B4B00EDE22F /* XYHomeHeaderView.swift */; };
+		E12DD21620C90B5D00EDE22F /* XYHomeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12DD21520C90B5D00EDE22F /* XYHomeFooterView.swift */; };
+		E12DD21820C9158200EDE22F /* XYHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12DD21720C9158200EDE22F /* XYHomeTableViewCell.swift */; };
+		E12DD21A20C9179F00EDE22F /* XYHomeMoodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12DD21920C9179F00EDE22F /* XYHomeMoodel.swift */; };
+		E12DD21C20C918C700EDE22F /* HomeProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12DD21B20C918C700EDE22F /* HomeProductModel.swift */; };
+		E14D239D20C8DC8A00F4DEC7 /* XYTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D239C20C8DC8A00F4DEC7 /* XYTableView.swift */; };
+		E14D23A020C8DE8E00F4DEC7 /* ColorRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D239F20C8DE8E00F4DEC7 /* ColorRegular.swift */; };
+		E14D23A220C8DF2900F4DEC7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D23A120C8DF2900F4DEC7 /* UIColor+Extension.swift */; };
+		E14D23A420C8F76700F4DEC7 /* FontRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D23A320C8F76700F4DEC7 /* FontRegular.swift */; };
+		E1C12CD220C7CFB0004DBD20 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD120C7CFB0004DBD20 /* UIImageView+Extension.swift */; };
+		E1C12CD420C7CFD5004DBD20 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD320C7CFD5004DBD20 /* UIButton+Extension.swift */; };
+		E1C12CD620C7CFE8004DBD20 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD520C7CFE8004DBD20 /* UITextField+Extension.swift */; };
+		E1C12CD820C7D012004DBD20 /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD720C7D012004DBD20 /* NSString+Extension.swift */; };
+		E1C12CDA20C7D02D004DBD20 /* NSArray+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD920C7D02D004DBD20 /* NSArray+Extension.swift */; };
+		E1C12CDC20C7D060004DBD20 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CDB20C7D060004DBD20 /* UILabel+Extension.swift */; };
+		E1C12CE220C7D149004DBD20 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CE020C7D149004DBD20 /* HomeViewController.swift */; };
+		E1C12CE820C7D152004DBD20 /* FinancingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CE720C7D152004DBD20 /* FinancingViewController.swift */; };
+		E1C12CEE20C7D15A004DBD20 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CEB20C7D15A004DBD20 /* MyViewController.swift */; };
+		E1C12CF020C7E127004DBD20 /* XYSpacingMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */; };
 		E1DCF8AB20C668BC00B9F6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8AA20C668BC00B9F6AB /* AppDelegate.swift */; };
-		E1DCF8AD20C668BC00B9F6AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8AC20C668BC00B9F6AB /* HomeViewController.swift */; };
 		E1DCF8B020C668BC00B9F6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8AE20C668BC00B9F6AB /* Main.storyboard */; };
 		E1DCF8B220C668BE00B9F6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8B120C668BE00B9F6AB /* Assets.xcassets */; };
 		E1DCF8B520C668BE00B9F6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8B320C668BE00B9F6AB /* LaunchScreen.storyboard */; };
 		E1DCF8C020C668BE00B9F6AB /* XYHoomXBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8BF20C668BE00B9F6AB /* XYHoomXBTests.swift */; };
 		E1DCF8CB20C668BE00B9F6AB /* XYHoomXBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8CA20C668BE00B9F6AB /* XYHoomXBUITests.swift */; };
-		E1DCF8E020C66B7400B9F6AB /* FinancingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8DF20C66B7400B9F6AB /* FinancingViewController.swift */; };
-		E1DCF8E220C66B7F00B9F6AB /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8E120C66B7F00B9F6AB /* MyViewController.swift */; };
 		E1DCF8E520C66DEF00B9F6AB /* XYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8E420C66DEF00B9F6AB /* XYTabBarController.swift */; };
 		E1DCF8E720C66E3200B9F6AB /* XYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8E620C66E3200B9F6AB /* XYNavigationController.swift */; };
 		E1DCF8E920C66FA200B9F6AB /* XYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8E820C66FA200B9F6AB /* XYViewController.swift */; };
@@ -44,9 +60,27 @@
 		37323257006C1CDD3A6C8460 /* Pods-XYHoomXB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHoomXB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYHoomXB/Pods-XYHoomXB.debug.xcconfig"; sourceTree = "<group>"; };
 		891923511D5F96C251648F0D /* Pods-XYHoomXB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHoomXB.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYHoomXB/Pods-XYHoomXB.release.xcconfig"; sourceTree = "<group>"; };
 		B7562DAB730AB632E291467E /* libPods-XYHoomXB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYHoomXB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12DD21320C90B4B00EDE22F /* XYHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHomeHeaderView.swift; sourceTree = "<group>"; };
+		E12DD21520C90B5D00EDE22F /* XYHomeFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHomeFooterView.swift; sourceTree = "<group>"; };
+		E12DD21720C9158200EDE22F /* XYHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHomeTableViewCell.swift; sourceTree = "<group>"; };
+		E12DD21920C9179F00EDE22F /* XYHomeMoodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHomeMoodel.swift; sourceTree = "<group>"; };
+		E12DD21B20C918C700EDE22F /* HomeProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductModel.swift; sourceTree = "<group>"; };
+		E14D239C20C8DC8A00F4DEC7 /* XYTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYTableView.swift; sourceTree = "<group>"; };
+		E14D239F20C8DE8E00F4DEC7 /* ColorRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRegular.swift; sourceTree = "<group>"; };
+		E14D23A120C8DF2900F4DEC7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E14D23A320C8F76700F4DEC7 /* FontRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRegular.swift; sourceTree = "<group>"; };
+		E1C12CD120C7CFB0004DBD20 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		E1C12CD320C7CFD5004DBD20 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		E1C12CD520C7CFE8004DBD20 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		E1C12CD720C7D012004DBD20 /* NSString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Extension.swift"; sourceTree = "<group>"; };
+		E1C12CD920C7D02D004DBD20 /* NSArray+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSArray+Extension.swift"; sourceTree = "<group>"; };
+		E1C12CDB20C7D060004DBD20 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		E1C12CE020C7D149004DBD20 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E1C12CE720C7D152004DBD20 /* FinancingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancingViewController.swift; sourceTree = "<group>"; };
+		E1C12CEB20C7D15A004DBD20 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYSpacingMacro.swift; sourceTree = "<group>"; };
 		E1DCF8A720C668BC00B9F6AB /* XYHoomXB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYHoomXB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DCF8AA20C668BC00B9F6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1DCF8AC20C668BC00B9F6AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E1DCF8AF20C668BC00B9F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1DCF8B120C668BE00B9F6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1DCF8B420C668BE00B9F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +91,6 @@
 		E1DCF8C620C668BE00B9F6AB /* XYHoomXBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYHoomXBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DCF8CA20C668BE00B9F6AB /* XYHoomXBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHoomXBUITests.swift; sourceTree = "<group>"; };
 		E1DCF8CC20C668BE00B9F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1DCF8DF20C66B7400B9F6AB /* FinancingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancingViewController.swift; sourceTree = "<group>"; };
-		E1DCF8E120C66B7F00B9F6AB /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		E1DCF8E420C66DEF00B9F6AB /* XYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYTabBarController.swift; sourceTree = "<group>"; };
 		E1DCF8E620C66E3200B9F6AB /* XYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYNavigationController.swift; sourceTree = "<group>"; };
 		E1DCF8E820C66FA200B9F6AB /* XYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +138,107 @@
 				891923511D5F96C251648F0D /* Pods-XYHoomXB.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E14D239E20C8DE5000F4DEC7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E14D239F20C8DE8E00F4DEC7 /* ColorRegular.swift */,
+				E14D23A320C8F76700F4DEC7 /* FontRegular.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E1C12CDD20C7D149004DBD20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1C12CDE20C7D149004DBD20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E12DD21920C9179F00EDE22F /* XYHomeMoodel.swift */,
+				E12DD21B20C918C700EDE22F /* HomeProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C12CDF20C7D149004DBD20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1C12CE020C7D149004DBD20 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C12CE120C7D149004DBD20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E12DD21320C90B4B00EDE22F /* XYHomeHeaderView.swift */,
+				E12DD21520C90B5D00EDE22F /* XYHomeFooterView.swift */,
+				E12DD21720C9158200EDE22F /* XYHomeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C12CE320C7D152004DBD20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1C12CE420C7D152004DBD20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C12CE520C7D152004DBD20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C12CE620C7D152004DBD20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1C12CE720C7D152004DBD20 /* FinancingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C12CE920C7D15A004DBD20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C12CEA20C7D15A004DBD20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1C12CEB20C7D15A004DBD20 /* MyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C12CEC20C7D15A004DBD20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C12CED20C7D15A004DBD20 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E1DCF89E20C668BC00B9F6AB = {
@@ -185,6 +318,7 @@
 		E1DCF8DA20C66A9F00B9F6AB /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -192,6 +326,7 @@
 		E1DCF8DB20C66A9F00B9F6AB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E14D239E20C8DE5000F4DEC7 /* Tool */,
 				E1DCF8EA20C67E1700B9F6AB /* Category */,
 			);
 			path = Tools;
@@ -200,7 +335,10 @@
 		E1DCF8DC20C66AFB00B9F6AB /* Financing */ = {
 			isa = PBXGroup;
 			children = (
-				E1DCF8DF20C66B7400B9F6AB /* FinancingViewController.swift */,
+				E1C12CE620C7D152004DBD20 /* Controller */,
+				E1C12CE420C7D152004DBD20 /* Model */,
+				E1C12CE520C7D152004DBD20 /* View */,
+				E1C12CE320C7D152004DBD20 /* ViewModel */,
 			);
 			path = Financing;
 			sourceTree = "<group>";
@@ -208,7 +346,10 @@
 		E1DCF8DD20C66AFB00B9F6AB /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E1DCF8AC20C668BC00B9F6AB /* HomeViewController.swift */,
+				E1C12CDF20C7D149004DBD20 /* Controller */,
+				E1C12CDE20C7D149004DBD20 /* Model */,
+				E1C12CE120C7D149004DBD20 /* View */,
+				E1C12CDD20C7D149004DBD20 /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -216,7 +357,10 @@
 		E1DCF8DE20C66AFB00B9F6AB /* My */ = {
 			isa = PBXGroup;
 			children = (
-				E1DCF8E120C66B7F00B9F6AB /* MyViewController.swift */,
+				E1C12CEA20C7D15A004DBD20 /* Controller */,
+				E1C12CEC20C7D15A004DBD20 /* Model */,
+				E1C12CE920C7D15A004DBD20 /* View */,
+				E1C12CED20C7D15A004DBD20 /* ViewModel */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -227,6 +371,7 @@
 				E1DCF8E420C66DEF00B9F6AB /* XYTabBarController.swift */,
 				E1DCF8E620C66E3200B9F6AB /* XYNavigationController.swift */,
 				E1DCF8E820C66FA200B9F6AB /* XYViewController.swift */,
+				E14D239C20C8DC8A00F4DEC7 /* XYTableView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -235,6 +380,13 @@
 			isa = PBXGroup;
 			children = (
 				E1DCF8ED20C67F1000B9F6AB /* UIView+Extension.swift */,
+				E14D23A120C8DF2900F4DEC7 /* UIColor+Extension.swift */,
+				E1C12CD120C7CFB0004DBD20 /* UIImageView+Extension.swift */,
+				E1C12CD320C7CFD5004DBD20 /* UIButton+Extension.swift */,
+				E1C12CDB20C7D060004DBD20 /* UILabel+Extension.swift */,
+				E1C12CD520C7CFE8004DBD20 /* UITextField+Extension.swift */,
+				E1C12CD720C7D012004DBD20 /* NSString+Extension.swift */,
+				E1C12CD920C7D02D004DBD20 /* NSArray+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -392,14 +544,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14D23A220C8DF2900F4DEC7 /* UIColor+Extension.swift in Sources */,
 				E1DCF8E720C66E3200B9F6AB /* XYNavigationController.swift in Sources */,
 				E1DCF8E520C66DEF00B9F6AB /* XYTabBarController.swift in Sources */,
+				E14D239D20C8DC8A00F4DEC7 /* XYTableView.swift in Sources */,
+				E12DD21C20C918C700EDE22F /* HomeProductModel.swift in Sources */,
 				E1DCF8EE20C67F1000B9F6AB /* UIView+Extension.swift in Sources */,
-				E1DCF8AD20C668BC00B9F6AB /* HomeViewController.swift in Sources */,
-				E1DCF8E020C66B7400B9F6AB /* FinancingViewController.swift in Sources */,
-				E1DCF8E220C66B7F00B9F6AB /* MyViewController.swift in Sources */,
+				E1C12CD820C7D012004DBD20 /* NSString+Extension.swift in Sources */,
+				E1C12CD420C7CFD5004DBD20 /* UIButton+Extension.swift in Sources */,
+				E12DD21420C90B4B00EDE22F /* XYHomeHeaderView.swift in Sources */,
+				E1C12CF020C7E127004DBD20 /* XYSpacingMacro.swift in Sources */,
+				E1C12CDA20C7D02D004DBD20 /* NSArray+Extension.swift in Sources */,
+				E1C12CD220C7CFB0004DBD20 /* UIImageView+Extension.swift in Sources */,
+				E14D23A020C8DE8E00F4DEC7 /* ColorRegular.swift in Sources */,
+				E1C12CD620C7CFE8004DBD20 /* UITextField+Extension.swift in Sources */,
+				E1C12CE820C7D152004DBD20 /* FinancingViewController.swift in Sources */,
+				E1C12CDC20C7D060004DBD20 /* UILabel+Extension.swift in Sources */,
+				E12DD21620C90B5D00EDE22F /* XYHomeFooterView.swift in Sources */,
+				E1C12CEE20C7D15A004DBD20 /* MyViewController.swift in Sources */,
+				E12DD21A20C9179F00EDE22F /* XYHomeMoodel.swift in Sources */,
 				E1DCF8E920C66FA200B9F6AB /* XYViewController.swift in Sources */,
+				E14D23A420C8F76700F4DEC7 /* FontRegular.swift in Sources */,
 				E1DCF8AB20C668BC00B9F6AB /* AppDelegate.swift in Sources */,
+				E1C12CE220C7D149004DBD20 /* HomeViewController.swift in Sources */,
+				E12DD21820C9158200EDE22F /* XYHomeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

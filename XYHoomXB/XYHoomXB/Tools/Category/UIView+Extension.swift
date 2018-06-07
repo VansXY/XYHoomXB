@@ -12,28 +12,82 @@ import UIKit
 extension UIView {
     /// X值
     var x: CGFloat {
-        return self.frame.origin.x
+        get {
+            return frame.origin.x
+        }
+        set {
+            frame = CGRect(x:newValue, y:frame.origin.y, width:frame.size.width
+                , height:frame.size.height)
+        }
     }
     /// Y值
     var y: CGFloat {
-        return self.frame.origin.y
+        get {
+            return self.frame.origin.y
+        }
+        set {
+            frame = CGRect(x:frame.origin.x, y:newValue, width:frame.size.width
+                , height:frame.size.height)
+        }
+        
     }
     /// 宽度
     var width: CGFloat {
-        return self.frame.size.width
+        get {
+            return self.frame.size.width
+        }
+        set {
+            frame = CGRect(x:frame.origin.x, y:frame.origin.y, width:newValue
+                , height:frame.size.height)
+        }
     }
     /// 高度
     var height: CGFloat {
-        return self.frame.size.height
+        get {
+            return self.frame.size.height
+        }
+        set {
+            frame = CGRect(x:frame.origin.x, y:frame.origin.y, width:frame.size.width
+                , height:newValue)
+        }
     }
     /// 尺寸
     var size: CGSize {
-        return self.frame.size
+        get {
+            return self.frame.size
+        }
+        set {
+            frame = CGRect(origin: frame.origin, size: newValue)
+        }
     }
     /// 点
-    var point: CGPoint {
-        return self.frame.origin
+    var origin: CGPoint {
+        get {
+            return self.frame.origin
+        }
+        set {
+            frame = CGRect(origin: newValue, size: frame.size)
+        }
     }
+    /// centerX
+    var centerX: CGFloat {
+        get {
+            return center.x
+        }
+        set {
+            center = CGPoint(x: newValue, y: center.y)
+        }
+    }
+    /// centerY
+    var centerY: CGFloat {
+        get {
+            return center.y
+        }
+        set {
+            center = CGPoint(x: center.x, y: newValue)
+        }
+    }
+    
 }
 
 
