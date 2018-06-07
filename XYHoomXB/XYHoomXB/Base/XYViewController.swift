@@ -20,7 +20,6 @@ class XYViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if isiPhoneX {
-            tabBarController?.tabBar.isHidden = true
             tabBarController?.tabBar.height = CGFloat(kTabbarHeight)
         }
     }
