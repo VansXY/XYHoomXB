@@ -28,7 +28,7 @@ class XYHomeHeaderView: UIView {
     }
     
     private func setCycleView() {
-        let cycleView = UIView(frame: CGRect(x: 0, y: 110, width: kScreenWidth, height: 90))
+        let cycleView = UIView(frame: CGRect(x: 0, y: 110, width: kScreenWidth, height: 100))
         cycleView.backgroundColor = UIColor.brown
         addSubview(cycleView)
     }

@@ -15,26 +15,27 @@ class XYHomeFooterView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor.gray
+        backgroundColor = XYColor.background
         setUI()
     }
     
     private func setUI () {
         let first_image = UIImage(named: "homePlatformIntroductionPlaceholder")
-        firstImageView.frame = CGRect(x: 10, y: 10, width: kScreenWidth/2 - 20, height: 80)
+        firstImageView.frame = CGRect(x: 10, y: 0, width: kScreenWidth / 2 - 15, height: 80)
         firstImageView.image = first_image
         firstImageView.contentMode = .scaleAspectFit
-        firstImageView.backgroundColor = UIColor.red
         addSubview(firstImageView)
         
-        secondImageView.frame = CGRect(x: kScreenWidth/2 + 10, y: 10, width: kScreenWidth/2 - 20, height: 80)
+        secondImageView.frame = CGRect(x: kScreenWidth/2 + 5, y: 0, width: kScreenWidth/2 - 15, height: 80)
         secondImageView.image = first_image
         secondImageView.contentMode = .scaleAspectFit
         addSubview(secondImageView)
         
-        let bottomLabel = UILabel(frame: CGRect(x: 0, y: 100, width: kScreenWidth, height: 40))
+        let bottomLabel = UILabel(frame: CGRect(x: 0, y: 90, width: kScreenWidth, height: 30))
         bottomLabel.textAlignment = .center
-        bottomLabel.text = "hhhhhhhh我是最底部"
+        bottomLabel.text = "我是最底部"
+        bottomLabel.textColor = XYColor.normal
+        bottomLabel.font = XYFont.light
         addSubview(bottomLabel)
         
     }

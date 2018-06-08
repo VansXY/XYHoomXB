@@ -17,6 +17,8 @@
 		E14D23A020C8DE8E00F4DEC7 /* ColorRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D239F20C8DE8E00F4DEC7 /* ColorRegular.swift */; };
 		E14D23A220C8DF2900F4DEC7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D23A120C8DF2900F4DEC7 /* UIColor+Extension.swift */; };
 		E14D23A420C8F76700F4DEC7 /* FontRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D23A320C8F76700F4DEC7 /* FontRegular.swift */; };
+		E14EBC1D20CA553700825506 /* HXBAccountInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EBC1C20CA553700825506 /* HXBAccountInfoModel.swift */; };
+		E1AE9C8120CA7BA200811ED0 /* XYBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */; };
 		E1C12CD220C7CFB0004DBD20 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD120C7CFB0004DBD20 /* UIImageView+Extension.swift */; };
 		E1C12CD420C7CFD5004DBD20 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD320C7CFD5004DBD20 /* UIButton+Extension.swift */; };
 		E1C12CD620C7CFE8004DBD20 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD520C7CFE8004DBD20 /* UITextField+Extension.swift */; };
@@ -69,6 +71,8 @@
 		E14D239F20C8DE8E00F4DEC7 /* ColorRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRegular.swift; sourceTree = "<group>"; };
 		E14D23A120C8DF2900F4DEC7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		E14D23A320C8F76700F4DEC7 /* FontRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRegular.swift; sourceTree = "<group>"; };
+		E14EBC1C20CA553700825506 /* HXBAccountInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXBAccountInfoModel.swift; sourceTree = "<group>"; };
+		E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBannerView.swift; sourceTree = "<group>"; };
 		E1C12CD120C7CFB0004DBD20 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		E1C12CD320C7CFD5004DBD20 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		E1C12CD520C7CFE8004DBD20 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
@@ -179,6 +183,7 @@
 				E12DD21320C90B4B00EDE22F /* XYHomeHeaderView.swift */,
 				E12DD21520C90B5D00EDE22F /* XYHomeFooterView.swift */,
 				E12DD21720C9158200EDE22F /* XYHomeTableViewCell.swift */,
+				E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 		E1C12CEC20C7D15A004DBD20 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E14EBC1C20CA553700825506 /* HXBAccountInfoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -545,9 +551,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14D23A220C8DF2900F4DEC7 /* UIColor+Extension.swift in Sources */,
+				E1AE9C8120CA7BA200811ED0 /* XYBannerView.swift in Sources */,
 				E1DCF8E720C66E3200B9F6AB /* XYNavigationController.swift in Sources */,
 				E1DCF8E520C66DEF00B9F6AB /* XYTabBarController.swift in Sources */,
 				E14D239D20C8DC8A00F4DEC7 /* XYTableView.swift in Sources */,
+				E14EBC1D20CA553700825506 /* HXBAccountInfoModel.swift in Sources */,
 				E12DD21C20C918C700EDE22F /* HomeProductModel.swift in Sources */,
 				E1DCF8EE20C67F1000B9F6AB /* UIView+Extension.swift in Sources */,
 				E1C12CD820C7D012004DBD20 /* NSString+Extension.swift in Sources */,

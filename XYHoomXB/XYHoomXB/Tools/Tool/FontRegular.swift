@@ -41,5 +41,9 @@ struct XYFont {
     
     /// 用于tabbar 【10】
     static let tabBar = UIFont(name: fontName, size: 10)!
+    
+    /// 用于产品大标题 【37】
+    static let title_37 = UIFont(name: fontName, size: 37)!
+    
 }
 

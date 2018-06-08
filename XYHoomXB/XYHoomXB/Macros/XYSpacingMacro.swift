@@ -17,3 +17,12 @@ let kStatusBar = isiPhoneX ? 44.0 : 24.0
 let kNavigationBarHeight = isiPhoneX ? 84.0 : 64.0
 let kTabbarHeight = isiPhoneX ? 83.0 : 49.0
 
+let kLineWidth: CGFloat = 0.5
+let kBoardWidth: CGFloat = 0.8
+
+
+
+
+
+
+

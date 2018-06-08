@@ -30,33 +30,39 @@ class HomeViewController: XYViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(XYHomeTableViewCell.self, forCellReuseIdentifier: XYHomeTableViewCell.identifier)
-        tableView.frame = CGRect(x: 0, y: CGFloat(kStatusBar), width: kScreenWidth, height: kScreenHeight - CGFloat(kStatusBar) - CGFloat(kTabbarHeight))
+        tableView.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight - CGFloat(kTabbarHeight))
         view.addSubview(tableView)
         
-        tableViewHead.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 210)
+        tableViewHead.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 220)
         tableView.tableHeaderView = tableViewHead
         
-        tableViewFoot.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 140)
+        tableViewFoot.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 120)
         tableView.tableFooterView = tableViewFoot
-        
     }
-    
-    
-
 }
 
 extension HomeViewController : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10;
+        return 4;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: XYHomeTableViewCell.identifier, for: indexPath) as! XYHomeTableViewCell
+        cell.selectionStyle = .none
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60.0;
+        return 273;
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.0001
+    }
+    
 }
 
