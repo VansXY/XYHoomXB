@@ -10,8 +10,8 @@ import UIKit
 
 /// 对UIView的扩展
 extension UIView {
-    /// X值
-    var x: CGFloat {
+    /// 左
+    var left: CGFloat {
         get {
             return frame.origin.x
         }
@@ -20,8 +20,9 @@ extension UIView {
                 , height:frame.size.height)
         }
     }
-    /// Y值
-    var y: CGFloat {
+    
+    /// 上
+    var top: CGFloat {
         get {
             return self.frame.origin.y
         }
@@ -29,8 +30,8 @@ extension UIView {
             frame = CGRect(x:frame.origin.x, y:newValue, width:frame.size.width
                 , height:frame.size.height)
         }
-        
     }
+    
     /// 宽度
     var width: CGFloat {
         get {
@@ -41,6 +42,7 @@ extension UIView {
                 , height:frame.size.height)
         }
     }
+    
     /// 高度
     var height: CGFloat {
         get {
@@ -51,6 +53,17 @@ extension UIView {
                 , height:newValue)
         }
     }
+    
+    /// 右
+    var right: CGFloat {
+        return left + width
+    }
+    
+    /// 下
+    var bottom: CGFloat {
+        return top + height
+    }
+    
     /// 尺寸
     var size: CGSize {
         get {
@@ -60,6 +73,7 @@ extension UIView {
             frame = CGRect(origin: frame.origin, size: newValue)
         }
     }
+    
     /// 点
     var origin: CGPoint {
         get {
@@ -69,6 +83,7 @@ extension UIView {
             frame = CGRect(origin: newValue, size: frame.size)
         }
     }
+    
     /// centerX
     var centerX: CGFloat {
         get {
@@ -78,6 +93,7 @@ extension UIView {
             center = CGPoint(x: newValue, y: center.y)
         }
     }
+    
     /// centerY
     var centerY: CGFloat {
         get {
