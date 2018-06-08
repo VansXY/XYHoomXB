@@ -10,6 +10,8 @@ import UIKit
 
 class XYBannerView: UIView {
 
+    lazy var pageControl = XYPageControl()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setUI()

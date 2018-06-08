@@ -19,6 +19,12 @@
 		E14D23A420C8F76700F4DEC7 /* FontRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D23A320C8F76700F4DEC7 /* FontRegular.swift */; };
 		E14EBC1D20CA553700825506 /* HXBAccountInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EBC1C20CA553700825506 /* HXBAccountInfoModel.swift */; };
 		E1AE9C8120CA7BA200811ED0 /* XYBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */; };
+		E1AE9C8420CA7E4B00811ED0 /* XYCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8320CA7E4B00811ED0 /* XYCycleView.swift */; };
+		E1AE9C8620CA7E7000811ED0 /* XYCycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8520CA7E7000811ED0 /* XYCycleCollectionViewCell.swift */; };
+		E1AE9C8820CA7EC500811ED0 /* XYCyclePagerViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8720CA7EC500811ED0 /* XYCyclePagerViewLayout.swift */; };
+		E1AE9C8A20CA7F3300811ED0 /* XYPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8920CA7F3300811ED0 /* XYPageControl.swift */; };
+		E1AE9C8C20CA82C100811ED0 /* XYHomeBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8B20CA82C100811ED0 /* XYHomeBannerModel.swift */; };
+		E1AE9C8E20CA8B3600811ED0 /* XYCyclePagerTransformLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8D20CA8B3600811ED0 /* XYCyclePagerTransformLayout.swift */; };
 		E1C12CD220C7CFB0004DBD20 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD120C7CFB0004DBD20 /* UIImageView+Extension.swift */; };
 		E1C12CD420C7CFD5004DBD20 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD320C7CFD5004DBD20 /* UIButton+Extension.swift */; };
 		E1C12CD620C7CFE8004DBD20 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CD520C7CFE8004DBD20 /* UITextField+Extension.swift */; };
@@ -73,6 +79,12 @@
 		E14D23A320C8F76700F4DEC7 /* FontRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRegular.swift; sourceTree = "<group>"; };
 		E14EBC1C20CA553700825506 /* HXBAccountInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXBAccountInfoModel.swift; sourceTree = "<group>"; };
 		E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBannerView.swift; sourceTree = "<group>"; };
+		E1AE9C8320CA7E4B00811ED0 /* XYCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYCycleView.swift; sourceTree = "<group>"; };
+		E1AE9C8520CA7E7000811ED0 /* XYCycleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYCycleCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1AE9C8720CA7EC500811ED0 /* XYCyclePagerViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYCyclePagerViewLayout.swift; sourceTree = "<group>"; };
+		E1AE9C8920CA7F3300811ED0 /* XYPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYPageControl.swift; sourceTree = "<group>"; };
+		E1AE9C8B20CA82C100811ED0 /* XYHomeBannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHomeBannerModel.swift; sourceTree = "<group>"; };
+		E1AE9C8D20CA8B3600811ED0 /* XYCyclePagerTransformLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYCyclePagerTransformLayout.swift; sourceTree = "<group>"; };
 		E1C12CD120C7CFB0004DBD20 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		E1C12CD320C7CFD5004DBD20 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		E1C12CD520C7CFE8004DBD20 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
@@ -153,6 +165,18 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		E1AE9C8220CA7E2C00811ED0 /* CycleView */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE9C8320CA7E4B00811ED0 /* XYCycleView.swift */,
+				E1AE9C8920CA7F3300811ED0 /* XYPageControl.swift */,
+				E1AE9C8520CA7E7000811ED0 /* XYCycleCollectionViewCell.swift */,
+				E1AE9C8720CA7EC500811ED0 /* XYCyclePagerViewLayout.swift */,
+				E1AE9C8D20CA8B3600811ED0 /* XYCyclePagerTransformLayout.swift */,
+			);
+			path = CycleView;
+			sourceTree = "<group>";
+		};
 		E1C12CDD20C7D149004DBD20 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +189,7 @@
 			children = (
 				E12DD21920C9179F00EDE22F /* XYHomeMoodel.swift */,
 				E12DD21B20C918C700EDE22F /* HomeProductModel.swift */,
+				E1AE9C8B20CA82C100811ED0 /* XYHomeBannerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +209,7 @@
 				E12DD21520C90B5D00EDE22F /* XYHomeFooterView.swift */,
 				E12DD21720C9158200EDE22F /* XYHomeTableViewCell.swift */,
 				E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */,
+				E1AE9C8220CA7E2C00811ED0 /* CycleView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -552,9 +578,12 @@
 			files = (
 				E14D23A220C8DF2900F4DEC7 /* UIColor+Extension.swift in Sources */,
 				E1AE9C8120CA7BA200811ED0 /* XYBannerView.swift in Sources */,
+				E1AE9C8620CA7E7000811ED0 /* XYCycleCollectionViewCell.swift in Sources */,
 				E1DCF8E720C66E3200B9F6AB /* XYNavigationController.swift in Sources */,
 				E1DCF8E520C66DEF00B9F6AB /* XYTabBarController.swift in Sources */,
 				E14D239D20C8DC8A00F4DEC7 /* XYTableView.swift in Sources */,
+				E1AE9C8420CA7E4B00811ED0 /* XYCycleView.swift in Sources */,
+				E1AE9C8A20CA7F3300811ED0 /* XYPageControl.swift in Sources */,
 				E14EBC1D20CA553700825506 /* HXBAccountInfoModel.swift in Sources */,
 				E12DD21C20C918C700EDE22F /* HomeProductModel.swift in Sources */,
 				E1DCF8EE20C67F1000B9F6AB /* UIView+Extension.swift in Sources */,
@@ -565,9 +594,12 @@
 				E1C12CDA20C7D02D004DBD20 /* NSArray+Extension.swift in Sources */,
 				E1C12CD220C7CFB0004DBD20 /* UIImageView+Extension.swift in Sources */,
 				E14D23A020C8DE8E00F4DEC7 /* ColorRegular.swift in Sources */,
+				E1AE9C8E20CA8B3600811ED0 /* XYCyclePagerTransformLayout.swift in Sources */,
 				E1C12CD620C7CFE8004DBD20 /* UITextField+Extension.swift in Sources */,
 				E1C12CE820C7D152004DBD20 /* FinancingViewController.swift in Sources */,
+				E1AE9C8C20CA82C100811ED0 /* XYHomeBannerModel.swift in Sources */,
 				E1C12CDC20C7D060004DBD20 /* UILabel+Extension.swift in Sources */,
+				E1AE9C8820CA7EC500811ED0 /* XYCyclePagerViewLayout.swift in Sources */,
 				E12DD21620C90B5D00EDE22F /* XYHomeFooterView.swift in Sources */,
 				E1C12CEE20C7D15A004DBD20 /* MyViewController.swift in Sources */,
 				E12DD21A20C9179F00EDE22F /* XYHomeMoodel.swift in Sources */,
