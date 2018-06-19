@@ -171,8 +171,8 @@
 				E1AE9C8320CA7E4B00811ED0 /* XYCycleView.swift */,
 				E1AE9C8920CA7F3300811ED0 /* XYPageControl.swift */,
 				E1AE9C8520CA7E7000811ED0 /* XYCycleCollectionViewCell.swift */,
-				E1AE9C8720CA7EC500811ED0 /* XYCyclePagerViewLayout.swift */,
 				E1AE9C8D20CA8B3600811ED0 /* XYCyclePagerTransformLayout.swift */,
+				E1AE9C8720CA7EC500811ED0 /* XYCyclePagerViewLayout.swift */,
 			);
 			path = CycleView;
 			sourceTree = "<group>";
@@ -492,6 +492,7 @@
 				TargetAttributes = {
 					E1DCF8A620C668BC00B9F6AB = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					E1DCF8BA20C668BE00B9F6AB = {
 						CreatedOnToolsVersion = 10.0;

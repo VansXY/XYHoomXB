@@ -8,12 +8,12 @@
 
 import UIKit
 
-class XYCycleView: UIView, UICollectionViewDelegate, UICollectionViewDataSource, XYCyclePagerTransformLayoutDelegate {
+class XYCycleView: UIView, UICollectionViewDelegate, UICollectionViewDataSource {
     
     
     lazy var backgroundView = UIView()
     lazy var collectionView = UICollectionView()
-    var layout = XYCyclePagerViewLayout()
+    var layout = XYCyclePagerTransformLayout()
     var isInfiniteLoop: Bool!
     var autoScrollInterval: CGFloat!
     
@@ -33,7 +33,7 @@ class XYCycleView: UIView, UICollectionViewDelegate, UICollectionViewDataSource,
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = UICollectionViewCell()
+        let cell = XYCycleCollectionViewCell(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight))
         return cell
     }
     

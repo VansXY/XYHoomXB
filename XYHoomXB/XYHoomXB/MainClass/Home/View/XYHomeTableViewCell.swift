@@ -50,7 +50,7 @@ class XYHomeTableViewCell: UITableViewCell {
         investmentPeriodTitleLabel.text = "12个月"
         planTitleLabel.text = "收益复投"
         minRegisterAmountLabel.text = "10000元起投"
-        purchaseButton.setTitle("立即加入", for: .normal)
+        purchaseButton.setTitle("立即加入", for: UIControl.State.normal)
     }
     
     func setUI() {
@@ -103,7 +103,7 @@ class XYHomeTableViewCell: UITableViewCell {
         moneyOffCouponImageView.contentMode = .scaleAspectFit
         
         purchaseButton.titleLabel?.font = XYFont.important
-        purchaseButton.setTitleColor(UIColor.white, for: .normal)
+        purchaseButton.setTitleColor(UIColor.white, for: UIControl.State.normal)
         purchaseButton.backgroundColor = UIColor(displayP3Red: 253.0/255.0, green: 54.0/255.0, blue: 54.0/255.0, alpha: 1)
         purchaseButton.titleLabel?.font = XYFont.navTitle
         purchaseButton.isEnabled = false
