@@ -34,6 +34,8 @@
 		E1C12CE820C7D152004DBD20 /* FinancingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CE720C7D152004DBD20 /* FinancingViewController.swift */; };
 		E1C12CEE20C7D15A004DBD20 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CEB20C7D15A004DBD20 /* MyViewController.swift */; };
 		E1C12CF020C7E127004DBD20 /* XYSpacingMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */; };
+		E1DB3F7020DA508F0080ADA7 /* XYAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB3F6F20DA508F0080ADA7 /* XYAPI.swift */; };
+		E1DB3F7220DA546B0080ADA7 /* XYNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB3F7120DA546B0080ADA7 /* XYNetworkConfig.swift */; };
 		E1DCF8AB20C668BC00B9F6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCF8AA20C668BC00B9F6AB /* AppDelegate.swift */; };
 		E1DCF8B020C668BC00B9F6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8AE20C668BC00B9F6AB /* Main.storyboard */; };
 		E1DCF8B220C668BE00B9F6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DCF8B120C668BE00B9F6AB /* Assets.xcassets */; };
@@ -93,6 +95,8 @@
 		E1C12CE720C7D152004DBD20 /* FinancingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancingViewController.swift; sourceTree = "<group>"; };
 		E1C12CEB20C7D15A004DBD20 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		E1C12CEF20C7E127004DBD20 /* XYSpacingMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYSpacingMacro.swift; sourceTree = "<group>"; };
+		E1DB3F6F20DA508F0080ADA7 /* XYAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYAPI.swift; sourceTree = "<group>"; };
+		E1DB3F7120DA546B0080ADA7 /* XYNetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYNetworkConfig.swift; sourceTree = "<group>"; };
 		E1DCF8A720C668BC00B9F6AB /* XYHoomXB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYHoomXB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DCF8AA20C668BC00B9F6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1DCF8AF20C668BC00B9F6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 			children = (
 				E14D239F20C8DE8E00F4DEC7 /* ColorRegular.swift */,
 				E14D23A320C8F76700F4DEC7 /* FontRegular.swift */,
+				E1DB3F7120DA546B0080ADA7 /* XYNetworkConfig.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 		E1DCF8D820C66A9F00B9F6AB /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				E1DB3F6F20DA508F0080ADA7 /* XYAPI.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -591,6 +597,7 @@
 				E1C12CDA20C7D02D004DBD20 /* NSArray+Extension.swift in Sources */,
 				E1C12CD220C7CFB0004DBD20 /* UIImageView+Extension.swift in Sources */,
 				E14D23A020C8DE8E00F4DEC7 /* ColorRegular.swift in Sources */,
+				E1DB3F7020DA508F0080ADA7 /* XYAPI.swift in Sources */,
 				E1AE9C8E20CA8B3600811ED0 /* XYCyclePagerTransformLayout.swift in Sources */,
 				E1C12CD620C7CFE8004DBD20 /* UITextField+Extension.swift in Sources */,
 				E1C12CE820C7D152004DBD20 /* FinancingViewController.swift in Sources */,
@@ -602,6 +609,7 @@
 				E12DD21A20C9179F00EDE22F /* XYHomeMoodel.swift in Sources */,
 				E1DCF8E920C66FA200B9F6AB /* XYViewController.swift in Sources */,
 				E14D23A420C8F76700F4DEC7 /* FontRegular.swift in Sources */,
+				E1DB3F7220DA546B0080ADA7 /* XYNetworkConfig.swift in Sources */,
 				E1DCF8AB20C668BC00B9F6AB /* AppDelegate.swift in Sources */,
 				E1C12CE220C7D149004DBD20 /* HomeViewController.swift in Sources */,
 				E12DD21820C9158200EDE22F /* XYHomeTableViewCell.swift in Sources */,
