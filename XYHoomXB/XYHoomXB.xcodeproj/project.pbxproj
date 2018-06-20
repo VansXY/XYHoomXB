@@ -18,7 +18,6 @@
 		E14D23A220C8DF2900F4DEC7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D23A120C8DF2900F4DEC7 /* UIColor+Extension.swift */; };
 		E14D23A420C8F76700F4DEC7 /* FontRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D23A320C8F76700F4DEC7 /* FontRegular.swift */; };
 		E14EBC1D20CA553700825506 /* HXBAccountInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14EBC1C20CA553700825506 /* HXBAccountInfoModel.swift */; };
-		E1AE9C8120CA7BA200811ED0 /* XYBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */; };
 		E1AE9C8420CA7E4B00811ED0 /* XYCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8320CA7E4B00811ED0 /* XYCycleView.swift */; };
 		E1AE9C8620CA7E7000811ED0 /* XYCycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8520CA7E7000811ED0 /* XYCycleCollectionViewCell.swift */; };
 		E1AE9C8820CA7EC500811ED0 /* XYCyclePagerViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE9C8720CA7EC500811ED0 /* XYCyclePagerViewLayout.swift */; };
@@ -78,7 +77,6 @@
 		E14D23A120C8DF2900F4DEC7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		E14D23A320C8F76700F4DEC7 /* FontRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRegular.swift; sourceTree = "<group>"; };
 		E14EBC1C20CA553700825506 /* HXBAccountInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXBAccountInfoModel.swift; sourceTree = "<group>"; };
-		E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBannerView.swift; sourceTree = "<group>"; };
 		E1AE9C8320CA7E4B00811ED0 /* XYCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYCycleView.swift; sourceTree = "<group>"; };
 		E1AE9C8520CA7E7000811ED0 /* XYCycleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYCycleCollectionViewCell.swift; sourceTree = "<group>"; };
 		E1AE9C8720CA7EC500811ED0 /* XYCyclePagerViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYCyclePagerViewLayout.swift; sourceTree = "<group>"; };
@@ -208,7 +206,6 @@
 				E12DD21320C90B4B00EDE22F /* XYHomeHeaderView.swift */,
 				E12DD21520C90B5D00EDE22F /* XYHomeFooterView.swift */,
 				E12DD21720C9158200EDE22F /* XYHomeTableViewCell.swift */,
-				E1AE9C8020CA7BA200811ED0 /* XYBannerView.swift */,
 				E1AE9C8220CA7E2C00811ED0 /* CycleView */,
 			);
 			path = View;
@@ -578,7 +575,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14D23A220C8DF2900F4DEC7 /* UIColor+Extension.swift in Sources */,
-				E1AE9C8120CA7BA200811ED0 /* XYBannerView.swift in Sources */,
 				E1AE9C8620CA7E7000811ED0 /* XYCycleCollectionViewCell.swift in Sources */,
 				E1DCF8E720C66E3200B9F6AB /* XYNavigationController.swift in Sources */,
 				E1DCF8E520C66DEF00B9F6AB /* XYTabBarController.swift in Sources */,
