@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import SnapKit
 
 class HomeViewController: XYViewController {
+    
     
     lazy var tableView = XYTableView(dataSource: nil, delegate: nil)
     lazy var tableViewHead = XYHomeHeaderView(frame: .zero)
@@ -33,7 +35,8 @@ class HomeViewController: XYViewController {
         tableView.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight - CGFloat(kTabbarHeight))
         view.addSubview(tableView)
         
-        tableViewHead.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 220)
+        tableViewHead.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 270)
+        tableViewHead.cycleView.delegate = self 
         tableView.tableHeaderView = tableViewHead
         
         tableViewFoot.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 120)
@@ -66,3 +69,8 @@ extension HomeViewController : UITableViewDataSource, UITableViewDelegate {
     
 }
 
+extension HomeViewController : XYCycleViewDelegate {
+    func cycleViewDidSelectedItemAtIndex(_ index: NSInteger) {
+        print("你点击的是第\(index + 1)个item")
+    }
+}

@@ -8,8 +8,18 @@
 
 import UIKit
 
-class XYPageControl: UIControl {
-
+class XYPageControl: UIPageControl {
     
-
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        isUserInteractionEnabled = false
+        pageIndicatorTintColor = UIColor.lightText
+        currentPageIndicatorTintColor = UIColor.white
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
 }
