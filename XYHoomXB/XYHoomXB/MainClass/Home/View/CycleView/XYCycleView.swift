@@ -115,7 +115,7 @@ extension XYCycleView {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        delegate?.cycleViewDidSelectedItemAtIndex(indexPath.row)
+        delegate?.cycleViewDidSelectedItemAtIndex(indexPath.item % (imageArray?.count)!)
     }
 }
 

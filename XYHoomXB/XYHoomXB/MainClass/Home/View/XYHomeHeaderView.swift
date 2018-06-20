@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import SnapKit
 
 class XYHomeHeaderView: UIView {
+    
+    
 
     lazy var headerImageView = UIImageView()
     lazy var cycleView = XYCycleView()
+    
     let imageArray : [String]? = ["banner01.jpg", "banner02.jpg", "banner03.jpg", "banner04.jpg"]
     
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor.gray
         setBackImageView()
         setCycleView()
     }
@@ -31,7 +34,7 @@ class XYHomeHeaderView: UIView {
     }
     
     private func setCycleView() {
-        cycleView = XYCycleView(frame: CGRect(x: 0, y: 110, width: kScreenWidth, height: 100))
+        cycleView = XYCycleView(frame: CGRect(x: 0, y: 110, width: kScreenWidth, height: 150))
         cycleView.pageColor = UIColor.lightGray
         cycleView.currentPageColor = UIColor.white
         cycleView.imageArray = imageArray
