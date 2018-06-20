@@ -11,6 +11,9 @@ import UIKit
 class XYHomeHeaderView: UIView {
 
     lazy var headerImageView = UIImageView()
+    lazy var cycleView = XYCycleView()
+    let imageArray : [String]? = ["banner01.jpg", "banner02.jpg", "banner03.jpg", "banner04.jpg"]
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,8 +31,10 @@ class XYHomeHeaderView: UIView {
     }
     
     private func setCycleView() {
-        let cycleView = UIView(frame: CGRect(x: 0, y: 110, width: kScreenWidth, height: 100))
-        cycleView.backgroundColor = UIColor.brown
+        cycleView = XYCycleView(frame: CGRect(x: 0, y: 110, width: kScreenWidth, height: 100))
+        cycleView.pageColor = UIColor.lightGray
+        cycleView.currentPageColor = UIColor.white
+        cycleView.imageArray = imageArray
         addSubview(cycleView)
     }
     

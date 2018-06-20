@@ -18,17 +18,13 @@ import UIKit
 
 class XYCyclePagerTransformLayout: UICollectionViewFlowLayout {
     
-    override init() {
-        super.init()
+    override func prepare() {
+        super.prepare()
         /// 滚动方向
         scrollDirection = .horizontal
         /// //尺寸
         itemSize = (collectionView?.bounds.size)!
         minimumLineSpacing = 0
         minimumInteritemSpacing = 0
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 }

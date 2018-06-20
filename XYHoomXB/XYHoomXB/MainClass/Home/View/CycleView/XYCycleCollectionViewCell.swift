@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 //图片的模式
 enum imageContentMode {
@@ -36,10 +37,10 @@ class XYCycleCollectionViewCell: UICollectionViewCell {
         didSet {
             /// 网络照片
             if (imageUrlString?.hasPrefix("http"))! {
-//                let imageUrl = NSURL(string: imageUrlString)
-//                imageView.
+                let imageUrl = NSURL(string: imageUrlString!)
+                imageView.kf.setImage(with: imageUrl as? Resource)
             } else { /// 本地图片
-                
+                imageView.image = UIImage(named: imageUrlString!)
             }
         }
     }
