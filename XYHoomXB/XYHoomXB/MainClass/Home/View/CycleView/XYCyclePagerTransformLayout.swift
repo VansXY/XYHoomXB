@@ -8,14 +8,6 @@
 
 import UIKit
 
-//protocol XYCyclePagerTransformLayoutDelegate {
-//    /// initialize layout attributes
-//    func pagerViewTransform_initializeTransform(Layout:XYCyclePagerViewLayout, attributes: UICollectionViewLayoutAttributes)
-//
-//    /// apply layout attributes
-//    func pagerViewTransform_applyTransform(Layout:XYCyclePagerViewLayout, attributes: UICollectionViewLayoutAttributes)
-//}
-
 class XYCyclePagerTransformLayout: UICollectionViewFlowLayout {
     
     override func prepare() {
